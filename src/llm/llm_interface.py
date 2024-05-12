@@ -42,6 +42,9 @@ class LLM:
             self._api_key = api_key
         self.api_version = api_version
         self.api_base = api_base
+        if self.api_base and self.api_version:
+            #if both base and version are present, assume user is using Azure OpenAI API
+            self.model_name = f"azure/{self.model_name}"
 
   
     def chat_completion(self, 
