@@ -24,9 +24,10 @@ question_answering_prompt_series = '''
 Your task is to synthesize and reason over a series of transcripts of an interview between Andrew Huberman and his guest(s).
 After your synthesis, use the series of transcripts to answer the below question.  The series will be in the following format:\n
 ```
-Show Summary: <summary>
-Show Guest: <guest>
-Transcript: <transcript>
+Show Summary: |summary|
+Show Guest: |guest|
+Transcript: |transcript|
+
 ```\n
 Start Series:
 ```
