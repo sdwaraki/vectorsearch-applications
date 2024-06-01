@@ -157,7 +157,7 @@ def main(retriever: WeaviateWCS):
             logger.info(f'TOTAL SESSION COST: {st.session_state["cost_counter"]}')
 
             ##################
-            # SEARCH DISPLAY #
+            # SEARCH DISPLAY ##
             ##################
             st.subheader("Search Results")
             for i, hit in enumerate(valid_response):
