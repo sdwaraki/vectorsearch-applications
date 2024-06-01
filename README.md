@@ -42,4 +42,4 @@ WEAVIATE_ENDPOINT= "your Weaviate cluster endpoint"  <--- you will get this on D
 <img src="assets/getsome.jpg" alt="jocko" width="500" height="auto">
 
 
-Check out the demo here [demo.mov](assets%2Fdemo.mov)
+Check out the demo here ![demo.gif](assets%2Fdemo.gif)
